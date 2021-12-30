@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Payment form</title> 
+</head>
+<body>
+    <form action="">
+<h1>Geekster Registration form </h1>
+<h2>Contact information</h2>
+<p>Name: * <input type="text" name="name" required></p>
+<fieldset>
+    <legend>Gender * </legend>
+<p>
+    Male <input type="radio" name="gender" id="male" required>
+    Female <input type="radio" name="gender" id="female" required>
+
+</p>
+</fieldset>
+<p>Address: <textarea name="address" id="address" cols="50" rows="6"></textarea> </p>
+    <p>Email:* <input type="email" name="email" id="email" required> </p>
+<p>Pincode:* <input type="number" name="pincode" id="pincode" required> </p>
+<hr>
+<h2>Payment information</h2>
+<p>card type:
+    <select name="card_type" id="card_type" required>
+        <option value="">Select a card type</option>
+        <option value="Visa">VISA</option>
+        <option value="rupay">rupay</option>
+        <option value="master card">Mastercard</option>
+    </select>
+</p>
+<p>
+    card number <input type="number" name="card_number" id="card_number" required>
+</p>
+<p>
+    Expiration Date: <input type="date" name="exp_date" id="exp_date"required>
+</p>
+<p>cvv: <input type="password" name="cvv" id="cvv" required></p>
+<input type="submit" value="pay now">
+
+
+
+</form>
+
+</body>
+</html>
