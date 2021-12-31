@@ -2,7 +2,7 @@
 */
 
 
-var char = prompt("enter the number");
+var char = prompt("enter the Character");
    
    if  (char == "a"|| char == "A" || 
        char == "e" || char == "E" || 
