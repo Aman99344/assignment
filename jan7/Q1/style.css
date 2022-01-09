@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(248, 246, 248);
+}
+
+h1 {
+    
+    text-align: center;
+    background-color: brown;
+    margin-top: 10px
+}
+
+div {
+    margin-top: 100px;
+    border-bottom: 150px solid rgb(182, 88, 26);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0px;
+    position: relative;
+    margin-left: 650px;
+}
+
+.tri1 {
+    margin-top: -60px;
+    width: 1px;
+    border-bottom: 150px solid rgb(42, 39, 230);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.tri2 {
+    border-bottom: 150px solid rgb(240, 7, 170);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0px;
+    margin-top: -60px;
+}
