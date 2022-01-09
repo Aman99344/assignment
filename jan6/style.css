@@ -1,0 +1,42 @@
+.first_border {
+    margin-left: 30%;
+    height: 750px;
+    width: 40%;
+    color: black;
+    border: 2px solid;
+}
+
+
+.second_border {
+    border: 2px solid;
+    color: brown;
+    width: 406px;
+    height: 600px;
+    margin-left: 15%;
+    margin-top: 80px;
+    }
+
+    p {
+         text-align: center;
+         color: black;
+    }
+
+    h1{
+        text-align: center;
+        color: black;
+        margin-top: 30px;
+
+    }
+
+    hr {
+        width: 50%;
+    }
+
+.para1 {
+    text-align: justify;
+    margin-top: 60px;
+}
+
+#para::first-letter{
+      font-size: 40px;
+}
