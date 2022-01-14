@@ -15,7 +15,7 @@ var count2 = 0;
         }
 
         btn2.onclick = function () {
-            count2--;
+            count2++;
             disp2.innerHTML = count2;
         }
 
